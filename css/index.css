@@ -278,13 +278,13 @@ header nav a {
 .box10 {
   background-color: dodgerblue;
 }
-.about-top-content {
+.about-top-content, .about-boxes {
     border-bottom: 1px dashed black;
 
 }
 
 .about-top-content p, h2 {
-    margin: 0 20px 20px 20px;
+    margin: 20px;
 }
 
 .about-middle-content {
@@ -292,13 +292,32 @@ header nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-
+    padding-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .about-boxes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 380px;
+    padding-bottom: 20px;
+    margin: 10px;
+    width: 360px;
    
+}
+.about-boxes h2 {
+    margin: 20px  0 20px 0;
+
+}
+button {
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.about-bottom-content {
+    padding: 10px 0 10px 0;
+}
+.about-bottom-content p {
+    margin: 20px;
 }
