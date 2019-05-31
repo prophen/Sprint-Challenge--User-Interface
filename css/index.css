@@ -316,8 +316,6 @@ button {
     border-radius: 5px;
 }
 .about-bottom-content {
-    padding: 10px 0 10px 0;
-}
-.about-bottom-content p {
-    margin: 20px;
+    padding: 10px 0 20px 0;
+    margin: 10px;
 }
